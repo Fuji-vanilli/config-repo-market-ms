@@ -1,0 +1,7 @@
+server:
+  port: 9200
+
+eureka:
+  client:
+    registry-with-eureka: false
+    fetch-registry: false
