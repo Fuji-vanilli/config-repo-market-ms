@@ -10,3 +10,15 @@ spring:
   data:
     mongodb:
       uri: mongodb://localhost:27017/user-market
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: cefomarmadagascar@gmail.com
+    password: rzuslfukhveigqqj
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
