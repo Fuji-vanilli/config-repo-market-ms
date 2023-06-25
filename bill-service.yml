@@ -1,0 +1,21 @@
+server:
+  port: 9430
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://locahost:9200/eureka/
+
+spring:
+  datasource:
+    url: jdbc:mysql:http://localhost:3306/billMDB
+    username: root
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: create
+      properties:
+        hibernate:
+          dialect: org.hibernate.dialect.MySQLDialect
+          format_sql: true
+    show-sql: true
