@@ -1,4 +1,4 @@
-serve:
+server:
   port: 9410
 
 eureka:
