@@ -1,6 +1,11 @@
 server:
   port: 9510
 
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9200/eureka/
+
 flickr:
   apiKey: 4a6ad5c9a19e879f873828801f04c667
   apiSecret: 2e48b9175596daec
