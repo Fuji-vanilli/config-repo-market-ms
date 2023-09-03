@@ -23,13 +23,6 @@ spring:
           starttls:
             enable: true
 
-  security:
-    oauth2:
-      resourceServer:
-        jwt:
-          issuer-uri: http://localhost:8080/realms/market-realm
-          jwk-set-url: ${spring.security.oauth2.resourceServer.jwt.issuer-uri}/protocol/openid-connect/certs
-
 jwt:
   auth:
     converter:
